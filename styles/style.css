@@ -1,0 +1,176 @@
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 76px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0 0 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 128px;
+}
+
+.header__title {
+  max-width: 635px;
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header__description {
+  max-width: 515px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 32px 0 0 0;
+}
+
+.header__image {
+  max-width: 636px;
+  width: 100%;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.header__address {
+  margin: 0;
+  color: #838383;
+}
+
+
+.staff {
+  background-image: url("../images/staff_picks_background.jpg"); /* Caminho sugerido */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px; 
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.staff__title {
+  font-size: 54px;
+  line-height: 68px;
+  font-weight: 500;
+  color: #000;
+  margin: 0;
+  margin-bottom: 24px; 
+  text-align: center;
+}
+
+.staff__subtitle {
+  font-size: 24px;
+  line-height: 34px;
+  color: #000;
+  margin: 0 0 80px 0; 
+  text-align: center;
+}
+
+
+.staff__cards {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 40px; 
+  max-width: 760px; 
+  margin: 0 auto;
+  margin-top: 0;
+  padding: 0; 
+  list-style-type: none; 
+}
+
+.card {
+  width: 360px;
+  height: 420px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column; 
+  padding: 40px 40px 30px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card__title {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0 0 16px 0;
+}
+
+.card__text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+  margin-top: 0;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+
+.card__footer {
+  margin-top: auto; 
+  font-size: 14px; 
+  line-height: 18px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  color: #838383;
+}
+
