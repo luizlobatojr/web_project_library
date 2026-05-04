@@ -1,11 +1,8 @@
-body {
-  font-family: "Arial", sans-serif;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
+  font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -29,6 +26,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 30px 80px 0;
 }
 
 .nav__logo {
@@ -48,14 +46,12 @@ body {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
-  font-size: 14px;
 }
 
 .header__content {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 128px;
+  margin-top: 128px 80px 0;
 }
 
 .header__title {
@@ -63,8 +59,7 @@ body {
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .header__description {
@@ -76,21 +71,16 @@ body {
 
 .header__image {
   max-width: 636px;
-  width: 100%;
 }
 
 .header__footer {
-  margin-top: auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  box-sizing: border-box;
+  padding: 40px 80px;
+  text-align: right;
 }
 
 .header__address {
-  margin: 0;
   color: #838383;
+  margin: 0;
 }
 
 .staff {
@@ -98,8 +88,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -137,12 +126,10 @@ body {
   width: 360px;
   height: 420px;
   background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
   padding: 40px 40px 30px;
   box-sizing: border-box;
-  border-radius: 30px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
 }
 
 .card__title {
@@ -152,25 +139,21 @@ body {
   color: #000000;
   margin: 0 0 16px 0;
 }
-
+.card__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 .card__text {
   font-size: 16px;
   line-height: 20px;
   color: #000000;
   margin-top: 0;
 }
-
-.card__content {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
 .card__footer {
   margin-top: auto;
-  font-size: 14px;
-  line-height: 18px;
   color: #838383;
+  font-size: 14px;
 }
 
 /* --- SEÇÃO EVENTOS --- */
