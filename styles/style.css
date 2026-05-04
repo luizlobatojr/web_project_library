@@ -139,6 +139,7 @@
   color: #000000;
   margin: 0 0 16px 0;
 }
+
 .card__content {
   display: flex;
   flex-direction: column;
