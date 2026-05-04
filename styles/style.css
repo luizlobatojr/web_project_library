@@ -193,15 +193,20 @@
 .events__info-section {
   margin-top: 32px;
 }
+.event-info__icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
 
-.events__info-item {
+.event-info__item {
   display: flex;
   align-items: center;
   margin-bottom: 4px;
   font-weight: 500;
 }
 
-.events__info-text {
+.event-info__text {
   font-size: 20px;
   line-height: 30px;
   margin: 0;
