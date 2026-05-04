@@ -312,12 +312,15 @@
   gap: 40px;
   padding: 0;
   list-style: none;
-  /* Adicione estilos */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .step {
   flex-basis: 220px;
-  /* Adicione estilos */
+  display: flex;
+  flex-direction: column;
 }
 
 .step__title {
@@ -339,15 +342,16 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #1f1f1f; /* Cor escura do rodapé[cite: 7] */
-  color: #ffffff; /* Cor da fonte de contraste[cite: 7] */
+  background-color: #1f1f1f;
+  color: #ffffff;
   padding: 60px 80px;
 }
 
 .footer__columns {
   display: flex;
-  justify-content: space-between; /* Distribui as 3 colunas[cite: 7] */
+  justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 100px;
 }
 
 .footer__column_content_hours {
@@ -367,13 +371,14 @@
 
 .footer__column-heading {
   font-size: 16px;
+  font-weight: 200;
   line-height: 20px;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .footer__list {
   /* O código abaixo remove os estilos do navegador padrão para listas */
-  list-style-type: none;
+  list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -396,6 +401,7 @@
 }
 
 .footer__copyright {
-  margin-top: 100px; /* Distância de 100px do bloco de colunas[cite: 7] */
+  margin: 0;
   font-size: 16px;
+  line-height: 20px;
 }
