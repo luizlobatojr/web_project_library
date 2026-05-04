@@ -206,14 +206,14 @@ body {
   margin-top: 32px;
 }
 
-.event-info__item {
+.events-info__item {
   display: flex;
   align-items: center;
   margin-bottom: 4px;
   font-weight: 500;
 }
 
-.event-info__icon {
+.events-info__icon {
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
@@ -221,7 +221,7 @@ body {
   height: 24px;
 }
 
-.event-info__text {
+.events-info__text {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -259,6 +259,7 @@ body {
 
 .person_name_feynman {
   /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  position: absolute;
   top: -30px;
   right: 319px;
 }
