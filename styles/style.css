@@ -20,6 +20,10 @@ body {
   position: relative;
   box-sizing: border-box;
 }
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
 
 .nav {
   display: flex;
