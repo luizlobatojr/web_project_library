@@ -74,8 +74,12 @@
 }
 
 .header__footer {
-  padding: 40px 80px;
-  text-align: right;
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
 }
 
 .header__address {
