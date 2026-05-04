@@ -206,14 +206,14 @@ body {
   margin-top: 32px;
 }
 
-.event-info__item {
+.event__info-item {
   display: flex;
   align-items: center;
   margin-bottom: 4px;
   font-weight: 500;
 }
 
-.event-info__icon {
+.event__info-icon {
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
@@ -221,7 +221,7 @@ body {
   height: 24px;
 }
 
-.event-info__text {
+.event__info-text {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
